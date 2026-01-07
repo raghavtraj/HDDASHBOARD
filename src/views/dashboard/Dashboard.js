@@ -9,6 +9,15 @@ import { useEffect } from 'react'
 import { fetchTopProducts } from '../../store/dashboardActions'
 import RevenueLineChart from './RevenueLineChart'
 
+const orderTypeData = [
+  { title: 'BOPIS', value: 42850, color: '#0d6efd' }, // Buy Online, Pick Up in Store
+  { title: 'Museum', value: 31520, color: '#198754' },
+  { title: 'Backorder', value: 18740, color: '#fd7e14' },
+  { title: 'Ship to Home', value: 25490, color: '#0dcaf0' },
+  // { title: 'Store Fulfilled', value: 14230, color: '#6f42c1' },
+  { title: 'Special Orders', value: 6890, color: '#dc3545' },
+]
+
 const Dashboard = () => {
   const selectedMonth = useSelector((state) => state.dashboard.selectedMonth)
   const dispatch = useDispatch()
@@ -22,7 +31,6 @@ const Dashboard = () => {
   console.log(selectedMonth)
   return (
     <>
-      
       <CRow className="mb-4 g-4 align-items-stretch">
         {/* Delivery Status */}
         <CCol md={7} className="d-flex">
@@ -73,7 +81,7 @@ const Dashboard = () => {
               {/* Chart grows to fill space */}
               <div className="flex-grow-1">
                 {/* <MainChart /> */}
-                <OrderStatusDoughnut />
+                <OrderStatusDoughnut doughnoutData={orderTypeData} />
               </div>
             </CCardBody>
           </CCard>

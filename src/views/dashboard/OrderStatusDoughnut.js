@@ -94,23 +94,23 @@ import { CChartDoughnut } from '@coreui/react-chartjs'
 //   { title: 'Partially Cancelled', value: 11, color: '#6c757d' },
 // ]
 
-const orderTypeData = [
-  { title: 'BOPIS', value: 42850, color: '#0d6efd' }, // Buy Online, Pick Up in Store
-  { title: 'Museum', value: 31520, color: '#198754' },
-  { title: 'Backorder', value: 18740, color: '#fd7e14' },
-  { title: 'Ship to Home', value: 25490, color: '#0dcaf0' },
-  // { title: 'Store Fulfilled', value: 14230, color: '#6f42c1' },
-  { title: 'Special Orders', value: 6890, color: '#dc3545' },
-]
-const OrderStatusDoughnut = () => {
+// const orderTypeData = [
+//   { title: 'BOPIS', value: 42850, color: '#0d6efd' }, // Buy Online, Pick Up in Store
+//   { title: 'Museum', value: 31520, color: '#198754' },
+//   { title: 'Backorder', value: 18740, color: '#fd7e14' },
+//   { title: 'Ship to Home', value: 25490, color: '#0dcaf0' },
+//   // { title: 'Store Fulfilled', value: 14230, color: '#6f42c1' },
+//   { title: 'Special Orders', value: 6890, color: '#dc3545' },
+// ]
+const OrderStatusDoughnut = ({ doughnoutData }) => {
   return (
     <CChartDoughnut
       data={{
-        labels: orderTypeData.map((item) => item.title),
+        labels: doughnoutData.map((item) => item.title),
         datasets: [
           {
-            data: orderTypeData.map((item) => item.value),
-            backgroundColor: orderTypeData.map((item) => item.color),
+            data: doughnoutData.map((item) => item.value),
+            backgroundColor: doughnoutData.map((item) => item.color),
             hoverOffset: 10,
           },
         ],
