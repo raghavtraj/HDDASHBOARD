@@ -1,0 +1,86 @@
+{
+  "productsTopSellingList": [
+    {
+      "name": "Men's Iron Block Henley",
+      "overallTotalQuantity": 720,
+      "prevMonthsQuantitySoldList": [
+        { "month": "August", "quantity": 120 },
+        { "month": "September", "quantity": 130 },
+        { "month": "October", "quantity": 110 },
+        { "month": "November", "quantity": 140 },
+        { "month": "December", "quantity": 110 },
+        { "month": "January", "quantity": 110 }
+      ]
+    },
+    {
+      "name": "Boom! Audio Bluetooth Cruiser Amp and Speaker Kit",
+      "overallTotalQuantity": 540,
+      "prevMonthsQuantitySoldList": [
+        { "month": "August", "quantity": 90 },
+        { "month": "September", "quantity": 95 },
+        { "month": "October", "quantity": 85 },
+        { "month": "November", "quantity": 100 },
+        { "month": "December", "quantity": 90 },
+        { "month": "January", "quantity": 80 }
+      ]
+    },
+    {
+      "name": "Embedded Hybrid Navigation",
+      "overallTotalQuantity": 360,
+      "prevMonthsQuantitySoldList": [
+        { "month": "August", "quantity": 55 },
+        { "month": "September", "quantity": 60 },
+        { "month": "October", "quantity": 65 },
+        { "month": "November", "quantity": 70 },
+        { "month": "December", "quantity": 55 },
+        { "month": "January", "quantity": 55 }
+      ]
+    },
+    {
+      "name": "Willie G Skull Teardrop Mirrors",
+      "overallTotalQuantity": 210,
+      "prevMonthsQuantitySoldList": [
+        { "month": "August", "quantity": 30 },
+        { "month": "September", "quantity": 35 },
+        { "month": "October", "quantity": 40 },
+        { "month": "November", "quantity": 45 },
+        { "month": "December", "quantity": 30 },
+        { "month": "January", "quantity": 30 }
+      ]
+    },
+    {
+      "name": "Men's Logo Tee with Baseball Cap",
+      "overallTotalQuantity": 120,
+      "prevMonthsQuantitySoldList": [
+        { "month": "August", "quantity": 20 },
+        { "month": "September", "quantity": 25 },
+        { "month": "October", "quantity": 15 },
+        { "month": "November", "quantity": 30 },
+        { "month": "December", "quantity": 15 },
+        { "month": "January", "quantity": 15 }
+      ]
+    }
+  ],
+  "categoriesTopSellingList": [
+    {
+      "name": "Handlebar Mounted Mirrors",
+      "quantity": 1
+    },
+    {
+      "name": "Willie G® Skull Black",
+      "quantity": 1
+    },
+    {
+      "name": "2020 Iron 883™",
+      "quantity": 1
+    },
+    {
+      "name": "2020 Fat Bob 114",
+      "quantity": 1
+    },
+    {
+      "name": "2020 Fat Bob 114 2",
+      "quantity": 1
+    }
+  ]
+}
